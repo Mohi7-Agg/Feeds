@@ -1,2 +1,2 @@
-Capterra,D:\SubmissionProvider\feed-products\Capterra.yaml
-SoftwareAdvice,D:\SubmissionProvider\feed-products\SoftwareAdvice.json
+Capterra,D:\Feeds\feed-products\Capterra.yaml
+SoftwareAdvice,D:\Feeds\feed-products\SoftwareAdvice.json
