@@ -1,0 +1,12 @@
+D:\SubmissionProvider\SubmissionProvider\bin\Release\SubmissionProvider.exe.config
+D:\SubmissionProvider\SubmissionProvider\bin\Release\SubmissionProvider.exe
+D:\SubmissionProvider\SubmissionProvider\bin\Release\SubmissionProvider.pdb
+D:\SubmissionProvider\SubmissionProvider\bin\Release\Newtonsoft.Json.dll
+D:\SubmissionProvider\SubmissionProvider\bin\Release\YamlDotNet.dll
+D:\SubmissionProvider\SubmissionProvider\bin\Release\Newtonsoft.Json.xml
+D:\SubmissionProvider\SubmissionProvider\bin\Release\YamlDotNet.xml
+D:\SubmissionProvider\SubmissionProvider\obj\Release\SubmissionProvider.csprojAssemblyReference.cache
+D:\SubmissionProvider\SubmissionProvider\obj\Release\SubmissionProvider.csproj.CoreCompileInputs.cache
+D:\SubmissionProvider\SubmissionProvider\obj\Release\SubmissionProvider.csproj.CopyComplete
+D:\SubmissionProvider\SubmissionProvider\obj\Release\SubmissionProvider.exe
+D:\SubmissionProvider\SubmissionProvider\obj\Release\SubmissionProvider.pdb
