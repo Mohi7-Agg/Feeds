@@ -16,5 +16,9 @@ SubmissionProvider.exe ".\input.txt"
 
 
 Input.txt:
+
+
 [Feed],DirectoyPath
+
+
 Capterra,D:\Feeds\feed-products\Capterra.yaml
