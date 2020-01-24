@@ -1,11 +1,11 @@
 -- 1) Select users whose id is either 3,2 or 4
 
-SELECT * FROM  USERS1 WHERE ID IN(3,2,4)
+SELECT * FROM  USERS WHERE ID IN(3,2,4)
 
  -- 2. Count how many basic and premium listings each active user has
  -- Please return at least: first_name, last_name, basic, premium
 
- SELECT U.first_name, U.last_name,filtered.status, filtered.count FROM USERS1 U, 
+ SELECT U.first_name, U.last_name,filtered.status, filtered.count FROM USERS U, 
  ( SELECT L.user_id as Id, L.status as status, COUNT(L.status) as count FROM
  LISTINGS L
  GROUP BY L.user_id, L.status
@@ -16,7 +16,7 @@ SELECT * FROM  USERS1 WHERE ID IN(3,2,4)
  --  3. Show the same count as before but only if they have at least ONE premium listing
 -- Please return at least: first_name, last_name, basic, premium
 
- SELECT U.first_name, U.last_name,filtered.status, filtered.count FROM USERS1 U, 
+ SELECT U.first_name, U.last_name,filtered.status, filtered.count FROM USERS U, 
  ( SELECT L.user_id as Id, L.status as status, COUNT(L.status) as count FROM
  LISTINGS L
  GROUP BY L.user_id, L.status
@@ -73,7 +73,7 @@ ORDER By YEAR(C.created)
 -- Please return at least: first_name, last_name, listing_names
 
  SELECT U.first_name, U.last_name, filtered.listing_names 
-FROM USERS1 U, 
+FROM USERS U, 
 ( SELECT  L.user_id as user_Id, listing_names = 
 				STUFF((SELECT ', ' + L2.name
 						   FROM Listings L2
